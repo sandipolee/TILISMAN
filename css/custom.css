@@ -1,0 +1,110 @@
+
+#header{
+    font-family: 'Poppins', bold;
+    src : url('../assets/fonts/Poppins-Bold.ttf');
+    padding: 20px 10vw 0 10vw;
+    height: 100px;
+    background:#f2f2f2;
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.header-img{
+    width: 300px;
+}
+.header-img img{
+width: 150px;
+}
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main-navs{
+    width: 60%;
+}
+#main-nav ul{
+    width:100%;
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+#main-nav ul li a{
+    text-decoration: none;
+}
+.nav-alink {
+    font-size: 1rem;
+    font-weight: 500;
+   text-decoration: none;
+   color: gray;
+
+}
+.nav-alink:hover{
+    color: black;
+ }
+ .now{
+     color: black;
+ }
+ #menue{
+     padding-top: 10px;
+     display: none;
+     justify-content: space-between;
+     cursor: pointer;
+ }
+ .bars{
+     margin-top: 5px;
+     width: 32px;
+     height: 5px;
+     background: rgb(6, 2, 65);
+     border-radius: 3px;
+ }
+ @media (max-width: 768px){
+     #menue{
+         display: block;
+     }
+     .main-navs{
+         display: none;
+     }
+     .main-navsresponsive{
+         z-index: 999;
+         position: absolute;
+         left: 0;
+         top: 100px;
+         background:#f2f2f2;
+         width: 100vw;
+         height: 80vh;
+         
+     }
+     .main-navsfancymenue ul{
+         display: block;
+
+     }
+     #main-nav ul{
+         margin-right: 0;
+         display: block;
+     }
+     #main-nav ul li{
+         padding: 0;
+         width: 100px;
+        margin-top: 20px;
+
+    }
+
+ }
+ #about-frist{
+     height: 70vh;
+     background-image: url("../assets/img/money.png");
+     background-size: cover;
+ }
+ #section1{
+     margin-top: 10px;
+     background: #f2f2f2;
+     font-family: 'Poppins', bold;
+    src : url('../assets/fonts/Poppins-Bold.ttf');
+ }
+ #section1 h3{
+font-weight: 700;
+color: rgb(4, 5, 59);
+ }
