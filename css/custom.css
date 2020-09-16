@@ -108,3 +108,11 @@ width: 150px;
 font-weight: 700;
 color: rgb(4, 5, 59);
  }
+ #section2{
+     width: 100vw;
+     margin: 0;
+     padding: 0;
+ }
+ .crousal{
+     width: 200px;
+ }
