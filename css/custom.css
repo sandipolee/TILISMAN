@@ -1,22 +1,23 @@
 
 #header{
-    font-family: 'Poppins', bold;
+    box-sizing: border-box;
+    font-family: 'Poppins', poppins;
     src : url('../assets/fonts/Poppins-Bold.ttf');
-    padding: 20px 10vw 0 10vw;
+    padding: 20px 10% 0 10%;
     height: 100px;
     background:#f2f2f2;
     display: block;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
+    margin: 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
-.header-img{
-    width: 300px;
-}
+
 .header-img img{
 width: 150px;
 }
 #main-nav{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 }
@@ -24,12 +25,17 @@ width: 150px;
     width: 60%;
 }
 #main-nav ul{
+    padding: 0;
+    margin: 0;
     width:100%;
     padding-top: 20px;
     text-decoration: none;
     list-style: none;
     display:flex;
     justify-content: space-around;
+}
+#main-nav ul li {
+    margin: 0;
 }
 #main-nav ul li a{
     text-decoration: none;
@@ -109,7 +115,8 @@ font-weight: 700;
 color: rgb(4, 5, 59);
  }
  #section2{
-     width: 100vw;
+     width: 100%;
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
      margin: 0;
      padding: 0;
  }
