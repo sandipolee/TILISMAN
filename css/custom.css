@@ -464,3 +464,35 @@ padding: 10px 0 0px 20px;
     width: 90%;
 
 }
+#feature{
+  font-family: "Poppins", bold;
+  width: 100%;
+  padding: 0 0  10% 0;
+}
+.featurebox{
+  width: 100%;
+}
+.bg-wlite{
+  background:#e7e7e7;
+}
+
+.bg-white{
+  background: white;
+}
+.feature-image{
+  overflow: hidden;
+}
+.feature-image img{
+  max-height:493px;
+}
+
+.c-green{
+  color: rgb(15, 199, 15);
+}
+
+.featurebox li{
+  margin-bottom: 17px;
+}
+.feature-text{
+  padding: 5% 0  5% 10% ;
+}
