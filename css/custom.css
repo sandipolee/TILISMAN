@@ -1,4 +1,7 @@
-
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', bold;
+}
 #header{
     box-sizing: border-box;
     font-family: 'Poppins', poppins;
@@ -98,15 +101,32 @@ width: 150px;
 
  }
  #about-frist{
-     height: 70vh;
+     height: 100vh;
      background-image: url("../assets/img/money.png");
      background-size: cover;
  }
  #section1{
-     margin-top: 10px;
-     background: #f2f2f2;
-     font-family: 'Poppins', bold;
+    height: 80vh;
+    padding: 10vh 0 20vh 0; 
+    margin-top: 10px;
+    background: #f2f2f2;
+    font-family: 'Poppins', bold;
     src : url('../assets/fonts/Poppins-Bold.ttf');
+    background-image: url("../assets/img/money.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+ }
+ @media (max-width: 768px){
+     #section1{
+         background-size: 200%;
+         background-position: left;
+     }
+ }
+
+ #hero-text{
+     max-width: 500px;
+
  }
  #section1 h3{
 font-weight: 700;
@@ -189,24 +209,33 @@ background-color: rgb(11, 11, 158);
 
 
 
-/* --------------pricing section start------------- */
+/* --------------feature section start------------- */
 
 #pricing{
 background-image: url('../assets/img/maxresdefault.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-height: 100vh;
 width: 100%;
-padding: 5% 0  0 0;
+padding: 5% 0  5% 0;
+font-family: 'Poppins', bold;
 }
 
-
+.font700{
+    font-weight: 700;
+    color: rgb(26, 8, 107) ;
+}
 .boxcard{
-background: #f2f2f2;
+background: #f2f2f2dc;
 border-radius: 10px;
+padding: 50px 0px 40px 0px;
 }
 .feature-ul{
-    list-style-type: square;
+    padding: 0 0 0 20px;
+    margin: 0;
+    list-style-type: circle;
+}
+.feature-ul li{
+    margin-bottom: 8px;
 }
 
 /*----------- Team section start ----------*/
@@ -327,4 +356,31 @@ color: #f2f2f2a9;
 }
 #email, #phone{
 font-weight: 600;
+}
+
+
+
+
+/* whytaslisman page */
+
+
+#why{
+    width: 100%;
+    font-family: 'Poppins', bold;
+    background: linear-gradient(to right, rgb(14, 6, 58) 50%, rgba(255, 255, 255, 0) 100%), url("../assets/img/whytas.jpeg");
+    height: 70vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.whiteh3{
+    max-width: 500px;
+    color: white;
+    font-weight: 600;
+}
+#detail{
+    width: 100%;
+    background: white;
+    height: 100vh;
 }
