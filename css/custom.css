@@ -1,7 +1,3 @@
-body {
-  box-sizing: border-box;
-  font-family: "Poppins", bold;
-}
 #header {
   box-sizing: border-box;
   font-family: "Poppins", poppins;
@@ -338,6 +334,20 @@ footer p {
   font-weight: 600;
 }
 
+@media( max-width:768px){
+  .row-footer{
+    flex-wrap: wrap;
+  }
+  /* .left-footer{
+    width: 100%;
+  } */
+}
+@media( max-width:768px){
+  .left-footer{
+    flex-wrap: wrap;
+  }
+}
+
 /* whytaslisman page */
 
 #why {
@@ -473,10 +483,12 @@ padding: 10px 0 0px 20px;
   width: 100%;
 }
 .bg-wlite{
+  font-family: "Poppins", bold;
   background:#e7e7e7;
 }
 
 .bg-white{
+  font-family: "Poppins", bold;
   background: white;
 }
 .feature-image{
@@ -495,4 +507,102 @@ padding: 10px 0 0px 20px;
 }
 .feature-text{
   padding: 5% 0  5% 10% ;
+}
+
+
+
+/* ---------kery new section started----------- */
+
+#key{
+  font-family: "Poppins", bold;
+}
+
+
+
+/* -------------new page secio ------------*/
+.fullpage{
+width: 100%;
+height: 100vh;
+}
+#seciobg{
+  font-family: "Poppins", bold;
+background-image: url('../assets/img/pexels-photo-590022.jpeg');
+background-size: cover;
+}
+.secio-box{
+  max-width:500px;
+  padding: 20% 0 0 5%;
+}
+#socio-text{
+  font-family: "Poppins", bold;
+  padding: 10% 0 5% 0 ;
+
+}
+.row-bx{
+  display: flex;
+
+}
+
+.text-box-secio{
+  width: 54%;
+}
+.image-holder{
+overflow: hidden;
+}
+.image-holder img{
+  width: 150%;
+}
+.list-bar{
+  height: 5px;
+  width: 7px;
+  border-radius: 30%;
+  background: green;
+}
+#boxicon-list{
+  font-family: "Poppins", bold;
+  padding: 0 0 10% 0;
+}
+.box-list{
+  margin:0 ;
+  list-style-position: outside;
+  list-style: none;
+  font-size: 1.2rem;
+  color: rgb(16, 5, 61);
+  font-weight: 700;
+}
+
+#bottom-img{
+  font-family: "Poppins", bold;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/img/shutterstock_1365569639.jpg');
+  background-size: cover;
+  
+}
+
+.centerbox{
+  width: 100%;
+  padding: 17% 20% 0 20%;
+}
+.center-text{
+  width: 25%;
+ 
+}
+@media(max-width:768px ){
+  .center-text{
+    width: 100%;
+   
+  }
+}
+
+
+
+/* --------nextpage covid------ */
+
+
+#covid-banner{
+  font-family: "Poppins", bold;
+  width: 100%;
+  height: 85vh;
+  background: rgb(4, 4, 59);
 }
