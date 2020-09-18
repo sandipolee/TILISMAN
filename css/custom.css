@@ -206,6 +206,7 @@
   font-family: "Poppins", bold;
 }
 
+
 .font700 {
   font-weight: 700;
   color: rgb(26, 8, 107);
@@ -369,6 +370,11 @@ footer p {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 7% 0 0 0;
+}
+@media(max-width:576px){
+  #Why {
+    background-size: cover;
+  }
 }
 .c-white {
   color: white;
